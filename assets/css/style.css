@@ -1,0 +1,147 @@
+html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/dust_scratches.png");
+}
+
+header {
+    background-color: #ffffff;
+    line-height: 3em;
+    font-weight: bold;
+    margin: 0 auto;
+    border-bottom: 2px solid #777777;
+}
+header h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #ffffff;
+    float: right;
+    padding: 20px;
+}
+/* Containing the section in the middle of the page, centered */
+section {
+    clear: both;
+    background: #ffffff;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: px;
+    width: 900px;
+    padding: 30px 30px 90px 30px;
+    margin: 10px auto;
+}
+
+section img {
+    border-radius: 50%;
+    border-color: gray;
+    border-style: double;
+    border-width: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+section h1 {
+    color: #4aaaa5;
+    font-weight: 900;
+    display: block;
+    border-bottom-color: #777777;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding: 15px;
+    margin-bottom: 10px;
+    line-height: 3em;
+}
+
+nav a {
+    display: inline-block;
+    line-height: 2em;
+    padding: 0 1em;
+    color: #777777; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+/* Footer elements. Including a sticky footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+ }
+/* Containing the header inside the same width as the section element */
+
+.head {
+    width: 960px; 
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/* Dragging the labels over the pictures */
+port1 img {
+    position: relative;
+}
+
+.port1 p {
+    background: #4aaaa5;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 32px;
+    margin-bottom: 80px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* Floating a couple images to the right*/
+.imgFloat {
+    float: right;
+}
+.picFloat {
+    float: left;
+    padding-right: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.formBtn {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}

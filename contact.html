@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <meta charset="utf=8">
+    <title>Contact Me</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-info navbar-dark navbar-expand-sm">
+                <div class="container">
+                        
+                <a href="index.html" class="navbar-brand">Craig Backlund</a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#toggleNav" aria-controls="toggleNav" aria-expand="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon"></div>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="toggleNav">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html" title="About Me Page">About</a>
+                        <a class="nav-item nav-link" href="portfolio.html" title="Portfolio of Craig">Portfolio</a>
+                        <a class="nav-item nav-link active" href="contact.html" title="Contact Craig Page">Contact</a>
+                    </div><!-- navbar close-->
+                </div><!-- collapse close-->
+            </div><!-- container close-->
+        </nav>
+    </header>
+    
+    
+    <div class="container">
+        <div class="row">
+        <h1 class="col">Contact</h1>
+        </div><!--closes out above row-->
+    </div><!--closes out container above-->
+
+    <section>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                        <label class="form-control-label" for="FullName">Name</label>
+                        <input type="text" class="form-control" id="exampleFullName" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                        <label class="form-control-label" for="InputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                        <small id="emailHelp" class="form-text text-muted">If you still have AOL,  you're old.....but still cool.</small>
+                </div>
+                <div class="form-group">
+                        <label class="form-control-label" for="Message">Message</label>
+                        <textarea class="form-control" id="exampleMessage" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div><!--closes out the form container-->
+
+    </section>
+    
+    <footer class="container mt-4">
+        <div class="row align-items-end bg-info text-center text-light">
+              <div class="col">
+                <p>&#169;Copyright 2018 Craig Backlund</p>
+              </div>
+        </div><!--closes out footer row area-->
+    </footer><!--closes out footer container-->
+</body>
+
+</html>
